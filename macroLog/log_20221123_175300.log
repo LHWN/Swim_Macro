@@ -1,0 +1,82 @@
+#### 성남도시개발공사 사이트 접근 ####
+.
+.
+.
+#### 로그인 여부 체크 ####
+[logout 상태]
+...login 중...
+[login 완료]
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/Swim_Legi_Macro/regiSwim.py", line 65, in <module>
+    center = Select(driver.find_element(By.ID, 'center'))
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=107.0.5304.110)
+Stacktrace:
+0   chromedriver                        0x0000000101266a88 chromedriver + 4123272
+1   chromedriver                        0x00000001011f2778 chromedriver + 3647352
+2   chromedriver                        0x0000000100eb4ac4 chromedriver + 248516
+3   chromedriver                        0x0000000100ea0a4c chromedriver + 166476
+4   chromedriver                        0x0000000100ea0814 chromedriver + 165908
+5   chromedriver                        0x0000000100e9f84c chromedriver + 161868
+6   chromedriver                        0x0000000100e9fbc8 chromedriver + 162760
+7   chromedriver                        0x0000000100eacb34 chromedriver + 215860
+8   chromedriver                        0x0000000100e9f1ac chromedriver + 160172
+9   chromedriver                        0x0000000100ea04bc chromedriver + 165052
+10  chromedriver                        0x0000000100e9f84c chromedriver + 161868
+11  chromedriver                        0x0000000100e9fbc8 chromedriver + 162760
+12  chromedriver                        0x0000000100ea9f38 chromedriver + 204600
+13  chromedriver                        0x0000000100e9f1ac chromedriver + 160172
+14  chromedriver                        0x0000000100ea04bc chromedriver + 165052
+15  chromedriver                        0x0000000100e9f84c chromedriver + 161868
+16  chromedriver                        0x0000000100e9fbc8 chromedriver + 162760
+17  chromedriver                        0x0000000100ea5d5c chromedriver + 187740
+18  chromedriver                        0x0000000100e9f1ac chromedriver + 160172
+19  chromedriver                        0x0000000100ea04bc chromedriver + 165052
+20  chromedriver                        0x0000000100e9f84c chromedriver + 161868
+21  chromedriver                        0x0000000100e9fbc8 chromedriver + 162760
+22  chromedriver                        0x0000000100e998c0 chromedriver + 137408
+23  chromedriver                        0x0000000100e9f1ac chromedriver + 160172
+24  chromedriver                        0x0000000100e9e75c chromedriver + 157532
+25  chromedriver                        0x0000000100e9e8cc chromedriver + 157900
+26  chromedriver                        0x0000000100e9ebd4 chromedriver + 158676
+27  chromedriver                        0x0000000100f1c78c chromedriver + 673676
+28  chromedriver                        0x0000000100edeb10 chromedriver + 420624
+29  chromedriver                        0x0000000100edfc30 chromedriver + 425008
+30  chromedriver                        0x0000000101238ae4 chromedriver + 3934948
+31  chromedriver                        0x000000010123bf24 chromedriver + 3948324
+32  chromedriver                        0x000000010123c508 chromedriver + 3949832
+33  chromedriver                        0x0000000101242b30 chromedriver + 3975984
+34  chromedriver                        0x000000010123cb24 chromedriver + 3951396
+35  chromedriver                        0x000000010121771c chromedriver + 3798812
+36  chromedriver                        0x00000001012592f0 chromedriver + 4068080
+37  chromedriver                        0x0000000101259444 chromedriver + 4068420
+38  chromedriver                        0x000000010126d450 chromedriver + 4150352
+39  libsystem_pthread.dylib             0x00000001965a426c _pthread_start + 148
+40  libsystem_pthread.dylib             0x000000019659f08c thread_start + 8
+

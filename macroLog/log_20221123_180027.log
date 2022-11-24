@@ -1,0 +1,123 @@
+#### 성남도시개발공사 사이트 접근 ####
+.
+.
+.
+#### 로그인 여부 체크 ####
+[logout 상태]
+...login 중...
+[login 완료]
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+#### 강의 오픈여부 검사 ####
+#### 강의 미오픈 ####
+.
+.
+.
+#### 수강신청 페이지 접근 ####
+#### 강의내역 조회 ####
+Traceback (most recent call last):
+  File "/Users/user/Documents/workspace/Swim_Legi_Macro/regiSwim.py", line 83, in <module>
+    table = driver.find_element(By.XPATH, '//*[@id="table_list_info"]/tbody')
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.110)
+Stacktrace:
+0   chromedriver                        0x0000000102b2aa88 chromedriver + 4123272
+1   chromedriver                        0x0000000102ab6778 chromedriver + 3647352
+2   chromedriver                        0x0000000102778ac4 chromedriver + 248516
+3   chromedriver                        0x0000000102758304 chromedriver + 115460
+4   chromedriver                        0x00000001027cee64 chromedriver + 601700
+5   chromedriver                        0x00000001027e0744 chromedriver + 673604
+6   chromedriver                        0x00000001027a2b10 chromedriver + 420624
+7   chromedriver                        0x00000001027a3c30 chromedriver + 425008
+8   chromedriver                        0x0000000102afcae4 chromedriver + 3934948
+9   chromedriver                        0x0000000102afff24 chromedriver + 3948324
+10  chromedriver                        0x0000000102b00508 chromedriver + 3949832
+11  chromedriver                        0x0000000102b06b30 chromedriver + 3975984
+12  chromedriver                        0x0000000102b00b24 chromedriver + 3951396
+13  chromedriver                        0x0000000102adb71c chromedriver + 3798812
+14  chromedriver                        0x0000000102b1d2f0 chromedriver + 4068080
+15  chromedriver                        0x0000000102b1d444 chromedriver + 4068420
+16  chromedriver                        0x0000000102b31450 chromedriver + 4150352
+17  libsystem_pthread.dylib             0x00000001965a426c _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000019659f08c thread_start + 8
+
